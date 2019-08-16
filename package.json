@@ -1,0 +1,24 @@
+{
+  "name": "pineput",
+  "version": "1.0.0",
+  "description": "Beautiful forms, zero effort. jQuery Apple inspired form plugin",
+  "main": "jquery.pineput.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stamat/jquery.pineput.git"
+  },
+  "keywords": [
+    "forms",
+    "jquery",
+    "jquery-plugin"
+  ],
+  "author": "Nikola Stamatovic <nikola.stamatovic@me.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stamat/jquery.pineput/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

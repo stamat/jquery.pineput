@@ -1,0 +1,23 @@
+{
+    "name": "pineput",
+    "main": [
+        "jquery.pineput.js"
+    ],
+    "homepage": "https://github.com/stamat/jquery.pineput",
+    "authors": [
+        "Nikola Stamatovic Stamat <nikola.stamatovic@me.com>"
+    ],
+    "description": "Beautiful forms, zero effort. jQuery Apple inspired form plugin.",
+    "keywords": [
+        "forms",
+        "jquery",
+        "jquery-plugin"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "index.html"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+    }
+}

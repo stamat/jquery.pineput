@@ -1,0 +1,21 @@
+{
+    "name": "pineput",
+    "repo": "stamat/jquery.pineput",
+    "description": "https://github.com/stamat/jquery.pineput",
+    "version": "1.0.0",
+    "keywords": [
+        "forms",
+        "jquery",
+        "jquery-plugin"
+    ],
+    "dependencies": {
+        "component/jquery": "*"
+    },
+    "development": {},
+    "scripts": {
+        "jquery.modally.js": "jquery.pineput.js"
+    },
+    "styles": {
+        "jquery.modally.css": "jquery.pineput.css"
+    }
+}
