@@ -1,45 +1,55 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Pineput - Beautiful forms, zero effort.</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pineput - Beautiful forms, zero effort.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <style>
+    <style>
+      form {
+        max-width: 620px;
+      }
+    </style>
 
-        </style>
+    <link rel="stylesheet" href="jquery.pineput.css">
 
-        <link rel="stylesheet" href="jquery.pineput.css">
-
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="jquery.pineput.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <main>
-                <section class="hero">
-                    <div class="table">
-                        <div class="cell">
-                            <img
-                            <h1 class="serif">Pineput</h1>
-                            <p>Beautiful forms, zero effort. jQuery Apple inspired form plugin.</p>
-                            <form>
-                                <div class="input-field">
-                                    <label>Your e-mail</label>
-                                    <input type="email" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-        <script type="text/javascript">
-            jQuery(document).ready(function() {
-                $('form').pineput();
-            });
-        </script>
-    </body>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.pineput.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+          <section class="hero">
+            <div class="table">
+              <div class="cell">
+                <h1 class="serif">Pineput</h1>
+                <p>Beautiful forms, zero effort. jQuery Apple inspired form plugin.</p>
+                <form>
+                  <div class="input-field">
+                    <label>Your e-mail</label>
+                    <input type="email" />
+                  </div>
+                  <div class="input-field">
+                    <label>Topic</label>
+                    <select>
+                      <option></option>
+                      <option>Topic 1</option>
+                      <option>Topic 2</option>
+                      <option>Topic 3</option>
+                    </select>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+      </main>
+    </div>
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+          $('form').pineput();
+      });
+    </script>
+  </body>
 </html>

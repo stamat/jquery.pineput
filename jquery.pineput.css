@@ -8,23 +8,25 @@ input[type="tel"],
 input[type="search"],
 input[type="url"],
 textarea,
+select,
 .input {
-    font-family: sans-serif;
-    border: 1px solid #C8C8C8;
-    font-weight: 400;
-    font-size: 14px;
-    color: #000000;
-    border-radius: 0px;
-    letter-spacing: 0px;
-    line-height: 18px;
-    box-sizing: border-box;
-    background-color: white;
-    outline: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: white;
-    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0);
-    transition: all 250ms ease-in-out;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  border: 1px solid #C8C8C8;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  border-radius: 0px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  box-sizing: border-box;
+  background-color: white;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0);
+  transition: all 250ms ease-in-out;
 }
 
 input[type="text"]:focus,
@@ -45,8 +47,8 @@ input[type="search"]:active,
 input[type="url"]:active,
 textarea:active,
 .input:active {
-    border: 1px solid #000000;
-    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,1);
+  border: 1px solid #000000;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,1);
 }
 
 input[type="text"]::placeholder,
@@ -57,6 +59,7 @@ input[type="tel"]::placeholder,
 input[type="search"]::placeholder,
 input[type="url"]::placeholder,
 textarea::placeholder,
+select::placeholder,
 .input::placeholder{
     color: rgba(255,255,255,0);
 }
@@ -68,6 +71,7 @@ input[type="number"],
 input[type="tel"],
 input[type="search"],
 input[type="url"],
+select,
 .input {
     height: 45px;
     padding-top: 11px;
@@ -136,6 +140,7 @@ textarea {
 .input-field.focus input[type="search"],
 .input-field.focus input[type="url"],
 .input-field.focus textarea,
+.input-field.focus select,
 .input-field.focus .input {
     box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,1);
 }
@@ -148,7 +153,15 @@ textarea {
 .input-field.active input[type="search"],
 .input-field.active input[type="url"],
 .input-field.active textarea,
+.input-field.active select,
 .input-field.active .input {
     box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0);
     border-color: #000000;
+}
+
+.input-field select {
+  background-image: url('chevron-down.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-right: 24px;
 }
