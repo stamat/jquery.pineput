@@ -162,6 +162,20 @@ textarea {
 .input-field select {
   background-image: url('chevron-down.svg');
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: 99% center;
   padding-right: 24px;
+}
+
+.input-field-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.input-field-group .input-field {
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 50%;
 }
